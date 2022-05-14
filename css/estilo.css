@@ -9,8 +9,37 @@ body{
     background-position:right center;
     background-size: cover;
     height: 600px;
+    border-top: 1px solid transparent;
+    
 }
+.header1 nav ul{
+    text-align: right;
+    padding-right: 30px;
+    
+    
+}
+.header1 nav li{
+    
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin: 15px 2px;
+    
+}
+.header1 a:hover{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.header1 a{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
 
+}
 .hero{
     text-align: center;
     color: white;
@@ -22,6 +51,8 @@ body{
     font-size: 46px;
     text-shadow: 3px 3px 2px black;
 }
+
+
 
 main{
     width: 80%;
